@@ -324,6 +324,10 @@ with tab1:
         
         fig_area_trends.update_layout(title=f"7-Day Rolling {selected_trend_metric} by Boarding Area", hovermode="x unified")
         st.plotly_chart(fig_area_trends, use_container_width=True)
+        # Add caution message about the two outlier dates Jun 5th 2017 and Aug 15th 2017 and can be removed using the filter
+        st.markdown("""
+        <span style='color: red;'>⚠️ Caution:</span> Trends may be influenced by outlier dates (June 5 and Aug 15, 2017). These can also be excluded using the date range filter.
+        """, unsafe_allow_html=True)
 
 # --- Tab 2: Detailed Ratings Analysis ---
 with tab2:
