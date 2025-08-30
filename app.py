@@ -607,7 +607,13 @@ with tab6:
     with text_col:
         st.markdown("### Summary")
         st.markdown("Experienced Data Engineer with 10+ years of expertise in designing scalable pipelines, building robust data models, and delivering actionable insights. Proficient in Python, SQL, Airflow, Snowflake, and Tableau, with a focus on enhancing performance, ensuring data quality, and driving data-driven decisions. Skilled in cross-functional collaboration and creating efficient, well-governed data systems to support business goals and continuous improvement.")
-
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.markdown("🔗 **LinkedIn**: [Syed Atef Alvi](https://www.linkedin.com/in/atefsyed/)")
+        with col2:
+            st.markdown("💼 **GitHub**: [Syed Atef Alvi](https://github.com/atefalvi)")
+        with col3:
+            st.markdown("📧 **Email**: syedatefalvi@gmail.com")
         st.markdown("---")
         st.markdown("### 🛠️ Skills")
         col1, col2, col3, col4 = st.columns(4)
@@ -631,3 +637,4 @@ with tab6:
     The goal of this case study is to transform raw survey data into **actionable insights**—highlighting passenger pain points, identifying quick operational wins, and uncovering long-term opportunities for infrastructure and service improvements.
     By combining data cleaning, statistical analysis, and visualization, this project demonstrates how analytics can guide decisions that improve **passenger flow, customer experience, and airport operations**.
     """)
+
