@@ -3,7 +3,7 @@
 This project is an **interactive Streamlit dashboard** built on the **San Francisco International Airport (SFO) 2017 Customer Survey** dataset.  
 The goal is to transform survey responses into **actionable insights** that highlight passenger satisfaction, pain points, and opportunities for operational and infrastructure improvements.  
 
-👉 [View the app on Streamlit Community](#)  
+👉 [View the app on Streamlit Community](https://sfo-dashboard.streamlit.app/)  
 
 ---
 
