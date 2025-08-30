@@ -613,7 +613,7 @@ with tab6:
         with col2:
             st.markdown("💼 **GitHub**: [Syed Atef Alvi](https://github.com/atefalvi)")
         with col3:
-            st.markdown("📧 **Email**: syedatefalvi@gmail.com")
+            st.markdown("📧 **Email**: atefalvi@gmail.com")
         st.markdown("---")
         st.markdown("### 🛠️ Skills")
         col1, col2, col3, col4 = st.columns(4)
